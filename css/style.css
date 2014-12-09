@@ -1548,3 +1548,478 @@ button::-moz-focus-inner {
 .news ul li h5 a:hover {
 	color:#ffffff;
 }
+
+@media only screen and (max-device-width: 1280px) {
+	.wrapper {
+		min-width:320px;
+	}
+	.header {
+		margin:0;
+	}
+	.header > div {
+		width:auto;
+		height:auto;
+		text-align:center;
+		padding:20px 0 0;
+	}
+	.header .logo {
+		position:static;
+		margin:0 0 20px;
+	}
+	.header h5 {
+		position:static;
+		width:auto;
+		margin:0 10% 20px;
+	}
+	.header > div > div {
+		position:static;
+		width:auto;
+		text-align:center;
+		margin:0 10% 20px;
+	}
+	.header > div > div p {
+		margin:10px 0 0;
+	}
+	.header ul {
+		position:static;
+		width:auto;
+		border-bottom:3px solid #895e22;
+	}
+	.header ul li {
+		display:block;
+		text-align:center;
+		margin:0;
+	}
+	.header ul li a {
+		padding:9px 20px 7px !important;
+		border-left-width:0;
+		border-top:1px solid #895e22;
+	}
+	.content {
+		width:auto;
+	}
+	.content .lb {
+		float:none;
+		width:auto;
+	}
+	.content .lb .nav {
+		text-align:center;
+		padding:18px 5% 21px 5%;
+	}
+	.content .lb .nav h3 {
+		padding-right:0;
+	}
+	.content .lb .nav ul {
+		margin:0;
+	}
+	.content .lb .nav button {
+		width:100%;
+	}
+	.content .lb  .blog h3 {
+		text-align:center;
+	}
+	.lb .blog ul {
+		margin:0 5% 20px;
+	}
+	.rb {
+		float:none;
+		width:auto;
+	}
+	.introduction {
+		min-height:0;
+		padding:20px 5% 350px;
+		margin:0;
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+		border-radius:0;
+	}
+	.introduction img {
+		position:absolute;
+		left:50%;
+		margin-left:-175px;
+	}
+	.rb .about {
+		width:auto;
+		padding:15px 5% 7px;
+	}
+	.rb .about > ul {
+		padding:0;
+		margin:0 0 10px;
+	}
+	.rb .about > ul li {
+		float:none;
+		width:auto;
+		text-align:center;
+		padding:15px 0 15px;
+		margin:0 0 20px;
+	}
+	.rb .about > ul li span {
+		position:relative;
+		display:inline-block;
+		vertical-align:top;
+		margin:-15px 10px -15px 0;
+	}
+	.rb .about > div > ul li {
+		display:block;
+		width:auto;
+		margin:0 0 10px;
+	}
+	.rb .about > div > ul li > div {
+		margin:0 auto 10px;
+	}
+	.rb .about button {
+		width:100%;
+		margin:30px 0 0;
+	}
+	.partners {
+		width:auto;
+		text-align:center;
+		margin:0;
+	}
+	.partners h3 {
+		margin:0;
+	}
+	.partners ul {
+		padding:20px 5% 20px;
+
+	}
+	.partners ul li {
+		float:none;
+		width:auto;
+		margin:0;
+	}
+	.partners ul li a {
+		padding:11px 0 0;
+		width:100%;
+	}
+	.footer > div {
+		width:auto;
+	}
+	.footer > div > div {
+		padding:0 5%;
+		margin:0 0 10px;
+	}
+	.footer .nav {
+		float:none;
+	}
+	.footer .nav > li {
+		display:block;
+		width:auto;
+		text-align:center;
+		margin:0;
+	}
+	.footer .social {
+		float:none;
+		text-align:center;
+		margin:20px 0 0;
+	}
+	.footer h6 {
+		text-align:center;
+		margin:0 5%;
+	}
+	.about {
+		width:auto;
+		margin:0;
+		padding:28px 5% 3px;
+	}
+	.about > div.left .person {
+		float:none;
+		width:auto;
+	}
+	.about > div.left .information {
+		float:none;
+		width:auto;
+	}
+	.about > div.right .person {
+		float:none;
+		width:auto;
+	}
+	.about > div.right .person > div {
+		width:auto;
+		left:25px;
+	}
+	.about > div.right .information {
+		float:none;
+		width:auto;
+	}
+	.service {
+		width:auto;
+		padding:27px 5% 36px;
+		margin:0 auto;
+	}
+	.service > div {
+		width:auto;
+	}
+	.service > div > div h3 {
+		padding:35px 20px 35px 80px;
+	}
+	.service > div > div:first-child h3 {
+		padding-left:100px;
+	}
+	.service > div > div:nth-child(1) h3:before {
+		top:20px;
+	}
+	.service > div > div:nth-child(2) h3:before {
+		top:26px;
+	}
+	.service > div > div {
+		float:none;
+		width:auto;
+		margin:0 0 30px !important;
+	}
+	.service > div > div ul li {
+		font-size:18px;
+		line-height:22px;
+	}
+	.service > img {
+		width:100%;
+		height:auto;
+		margin:0 0 30px;
+	}
+	.service h2 {
+		margin:0 0 10px;
+	}
+	.category {
+		width:auto;
+		padding:32px 5% 11px;
+		margin:0 auto;
+	}
+	.category .lb {
+		float:none;
+		width:auto;
+	}
+	.category .lb h6 {
+		margin:33px 0 32px;
+	}
+	.category .lb button {
+		font-size:18px;
+		line-height:22px;
+		width:100%;
+	}
+	.category .rb {
+		float:none;
+		width:auto;
+	}
+	.price {
+		width:auto;
+		padding:32px 5% 1px;
+		margin:0 auto;
+	}
+	.price h1 {
+		text-align:center;
+	}
+	.price h3 {
+		text-align:center;
+	}
+	.price h6 {
+		text-align:center;
+		margin-top:-19px;
+	}
+	.price ul {
+		width:auto;
+	}
+	.price ul li {
+		margin:0 0 10px;
+	}
+	.clients {
+		width:auto;
+		padding:27px 5% 9px;
+		margin:0 auto;
+	}
+	.clients h1 {
+		text-align:center;
+	}
+	.clients ul {
+		width:auto;
+		margin:30px 0 10px;
+	}
+	.clients ul li {
+		float:none;
+		width:auto;
+		margin:0 0 10px;
+	}
+	.clients ul li a {
+		width:100%;
+	}
+	.clients ul li a div {
+		width:100%;
+		text-align:center;
+		padding:13px 0;
+	}
+	.blogpage {
+		width:auto;
+		padding:27px 5% 27px;
+		margin:0 auto;
+	}
+	.blogpage h1 {
+		text-align:center;
+	}
+	.blogpage .lb {
+		float:none;
+		width:auto;
+	}
+	.blogpage .lb > div > div {
+		float:none;
+		width:auto;
+		margin:0;
+	}
+	.blogpage .lb > div > div > div h2 {
+		text-align:center;
+	}
+	.blogpage .lb > div > div > div h6 {
+		text-align:center;
+	}
+	.blogpage .rb {
+		float:none;
+		width:auto;
+		margin:10px 0 0;
+	}
+	.blogpage .rb h2 {
+		text-align:center;
+		margin:0 0 20px;
+	}
+	.blogpage .rb h2:before {
+		position:relative;
+		display:inline-block;
+		vertical-align:top;
+		margin:-2px 16px -2px 0;
+	}
+	.blogpage .rb > div > div > div {
+		width:216px;
+		margin:0 auto 10px;
+	}
+	.blogpage .rb > div p {
+		text-align:center;
+	}
+	.contacts {
+		width:auto;
+		margin:0 auto;
+	}
+	.contacts .lb {
+		float:none;
+		width:auto;
+		padding:18px 0 20px;
+	}
+	.contacts .lb > div {
+		padding:54px 5% 0;
+		background:url('../img/contacts_lb.png') no-repeat center top;
+	}
+	.contacts .lb > div ul {
+		text-align:center;
+	}
+	.contacts .lb > div p {
+		text-align:center;
+	}
+	.contacts .rb {
+		float:none;
+		width:auto;
+	}
+	.contacts .rb > div {
+		text-align:center;
+		padding:38px 5% 10px;
+		background:url('../img/contacts_rb.png') no-repeat center top;
+	}
+	.contacts .rb p {
+		margin:0 0 10px;
+	}
+	.contacts .rb h2 {
+		text-align:center;
+	}
+	.contacts .rb p input, .contacts .rb p textarea {
+		width:100%;
+		-moz-box-shadow:border-box;
+		-webkit-box-shadow:border-box;
+		box-sizing:border-box;
+	}
+	.contacts .rb button {
+		display:inline-block;
+		margin:7px 0 5px;
+	}
+	.contacts .rb > div > div {
+		width:auto;
+		margin:0;
+	}
+	.documents {
+		width:auto;
+		min-height:0;
+		padding:27px 5% 18px;
+		margin:0 auto;
+	}
+	.documents h1 {
+		text-align:center;
+		margin:0 0 30px;
+	}
+	.documents ul li {
+		display:block;
+		width:100%;
+		margin:0 0 12px;
+	}
+	.video {
+		width:auto;
+		margin:0 auto;
+	}
+	.video .lb {
+		float:none;
+		width:auto;
+		min-height:0;
+		padding:10px 0 20px;
+	}
+	.video .lb h3 {
+		text-align:center;
+		padding:11px 5% 43px;
+		background:url('../img/video_lb_h3.png') no-repeat center bottom;
+	}
+	.video .lb h5 {
+		text-align:center;
+		margin:0 5% 27px;
+	}
+	.video .lb p {
+		text-align:center;
+		margin:0 5% 16px;
+	}
+	.video .rb {
+		float:none;
+		width:auto;
+	}
+	.video .rb ul li {
+		display:block;
+		width:auto;
+		text-align:center;
+		margin:0 5% 24px;
+	}
+	.video .rb ul li h5 {
+		margin:0 0 10px;
+	}
+	.news {
+		width:auto;
+		padding:28px 5% 8px;
+		margin:0 auto;
+	}
+	.news ul {
+		margin:0;
+	}
+	.news h1 {
+		text-align:center;
+	}
+	.news ul li {
+		text-align:center;
+		padding:2px 0 20px;
+	}
+	.news ul li img {
+		float:none;
+		margin:0 0 20px;
+	}
+	.news ul li h6 {
+		position:static;
+		width:100px;
+		margin:0 auto 20px;
+	}
+	.news ul li p {
+		text-align:left;
+	}
+	.news ul li h5 {
+		position:static;
+		text-align:center;
+		margin:30px 0 16px;
+	}
+}
