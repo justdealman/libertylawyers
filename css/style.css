@@ -1549,83 +1549,82 @@ button::-moz-focus-inner {
 	color:#ffffff;
 }
 
-@media only screen and (max-device-width: 1280px) {
-	.wrapper {
+	body.mobile .wrapper {
 		min-width:320px;
 	}
-	.header {
+	body.mobile .header {
 		margin:0;
 	}
-	.header > div {
+	body.mobile .header > div {
 		width:auto;
 		height:auto;
 		text-align:center;
 		padding:20px 0 0;
 	}
-	.header .logo {
+	body.mobile .header .logo {
 		position:static;
 		margin:0 0 20px;
 	}
-	.header h5 {
+	body.mobile .header h5 {
 		position:static;
 		width:auto;
 		margin:0 10% 20px;
 	}
-	.header > div > div {
+	body.mobile .header > div > div {
 		position:static;
 		width:auto;
 		text-align:center;
 		margin:0 10% 20px;
 	}
-	.header > div > div p {
+	body.mobile .header > div > div p {
 		margin:10px 0 0;
 	}
-	.header ul {
+	body.mobile .header ul {
 		position:static;
 		width:auto;
 		border-bottom:3px solid #895e22;
 	}
-	.header ul li {
+	body.mobile .header ul li {
 		display:block;
 		text-align:center;
 		margin:0;
 	}
-	.header ul li a {
+	body.mobile .header ul li a {
 		padding:9px 20px 7px !important;
 		border-left-width:0;
 		border-top:1px solid #895e22;
 	}
-	.content {
+	body.mobile .content {
 		width:auto;
 	}
-	.content .lb {
+	body.mobile .content .lb {
 		float:none;
 		width:auto;
 	}
-	.content .lb .nav {
+	body.mobile .content .lb .nav {
 		text-align:center;
 		padding:18px 5% 21px 5%;
 	}
-	.content .lb .nav h3 {
+	body.mobile .content .lb .nav h3 {
 		padding-right:0;
 	}
-	.content .lb .nav ul {
+	body.mobile .content .lb .nav ul {
 		margin:0;
 	}
-	.content .lb .nav button {
+	body.mobile .content .lb .nav button {
 		width:100%;
 	}
 	.content .lb  .blog h3 {
 		text-align:center;
 	}
-	.lb .blog ul {
+	body.mobile .lb .blog ul {
 		margin:0 5% 20px;
 	}
-	.rb {
+	body.mobile .rb {
 		float:none;
 		width:auto;
 	}
-	.introduction {
+	body.mobile .introduction {
 		min-height:0;
 		padding:20px 5% 350px;
 		margin:0;
@@ -1633,393 +1632,392 @@ button::-moz-focus-inner {
 		-moz-border-radius:0;
 		border-radius:0;
 	}
-	.introduction img {
+	body.mobile .introduction img {
 		position:absolute;
 		left:50%;
 		margin-left:-175px;
 	}
-	.rb .about {
+	body.mobile .rb .about {
 		width:auto;
 		padding:15px 5% 7px;
 	}
-	.rb .about > ul {
+	body.mobile .rb .about > ul {
 		padding:0;
 		margin:0 0 10px;
 	}
-	.rb .about > ul li {
+	body.mobile .rb .about > ul li {
 		float:none;
 		width:auto;
 		text-align:center;
 		padding:15px 0 15px;
 		margin:0 0 20px;
 	}
-	.rb .about > ul li span {
+	body.mobile .rb .about > ul li span {
 		position:relative;
 		display:inline-block;
 		vertical-align:top;
 		margin:-15px 10px -15px 0;
 	}
-	.rb .about > div > ul li {
+	body.mobile .rb .about > div > ul li {
 		display:block;
 		width:auto;
 		margin:0 0 10px;
 	}
-	.rb .about > div > ul li > div {
+	body.mobile .rb .about > div > ul li > div {
 		margin:0 auto 10px;
 	}
-	.rb .about button {
+	body.mobile .rb .about button {
 		width:100%;
 		margin:30px 0 0;
 	}
-	.partners {
+	body.mobile .partners {
 		width:auto;
 		text-align:center;
 		margin:0;
 	}
-	.partners h3 {
+	body.mobile .partners h3 {
 		margin:0;
 	}
-	.partners ul {
+	body.mobile .partners ul {
 		padding:20px 5% 20px;
 
 	}
-	.partners ul li {
+	body.mobile .partners ul li {
 		float:none;
 		width:auto;
 		margin:0;
 	}
-	.partners ul li a {
+	body.mobile .partners ul li a {
 		padding:11px 0 0;
 		width:100%;
 	}
-	.footer > div {
+	body.mobile .footer > div {
 		width:auto;
 	}
-	.footer > div > div {
+	body.mobile .footer > div > div {
 		padding:0 5%;
 		margin:0 0 10px;
 	}
-	.footer .nav {
+	body.mobile .footer .nav {
 		float:none;
 	}
-	.footer .nav > li {
+	body.mobile .footer .nav > li {
 		display:block;
 		width:auto;
 		text-align:center;
 		margin:0;
 	}
-	.footer .social {
+	body.mobile .footer .social {
 		float:none;
 		text-align:center;
 		margin:20px 0 0;
 	}
-	.footer h6 {
+	body.mobile .footer h6 {
 		text-align:center;
 		margin:0 5%;
 	}
-	.about {
+	body.mobile .about {
 		width:auto;
 		margin:0;
 		padding:28px 5% 3px;
 	}
-	.about > div.left .person {
+	body.mobile .about > div.left .person {
 		float:none;
 		width:auto;
 	}
-	.about > div.left .information {
+	body.mobile .about > div.left .information {
 		float:none;
 		width:auto;
 	}
-	.about > div.right .person {
+	body.mobile .about > div.right .person {
 		float:none;
 		width:auto;
 	}
-	.about > div.right .person > div {
+	body.mobile .about > div.right .person > div {
 		width:auto;
 		left:25px;
 	}
-	.about > div.right .information {
+	body.mobile .about > div.right .information {
 		float:none;
 		width:auto;
 	}
-	.service {
+	body.mobile .service {
 		width:auto;
 		padding:27px 5% 36px;
 		margin:0 auto;
 	}
-	.service > div {
+	body.mobile .service > div {
 		width:auto;
 	}
-	.service > div > div h3 {
+	body.mobile .service > div > div h3 {
 		padding:35px 20px 35px 80px;
 	}
-	.service > div > div:first-child h3 {
+	body.mobile .service > div > div:first-child h3 {
 		padding-left:100px;
 	}
-	.service > div > div:nth-child(1) h3:before {
+	body.mobile .service > div > div:nth-child(1) h3:before {
 		top:20px;
 	}
-	.service > div > div:nth-child(2) h3:before {
+	body.mobile .service > div > div:nth-child(2) h3:before {
 		top:26px;
 	}
-	.service > div > div {
+	body.mobile .service > div > div {
 		float:none;
 		width:auto;
 		margin:0 0 30px !important;
 	}
-	.service > div > div ul li {
+	body.mobile .service > div > div ul li {
 		font-size:18px;
 		line-height:22px;
 	}
-	.service > img {
+	body.mobile .service > img {
 		width:100%;
 		height:auto;
 		margin:0 0 30px;
 	}
-	.service h2 {
+	body.mobile .service h2 {
 		margin:0 0 10px;
 	}
-	.category {
+	body.mobile .category {
 		width:auto;
 		padding:32px 5% 11px;
 		margin:0 auto;
 	}
-	.category .lb {
+	body.mobile .category .lb {
 		float:none;
 		width:auto;
 	}
-	.category .lb h6 {
+	body.mobile .category .lb h6 {
 		margin:33px 0 32px;
 	}
-	.category .lb button {
+	body.mobile .category .lb button {
 		font-size:18px;
 		line-height:22px;
 		width:100%;
 	}
-	.category .rb {
+	body.mobile .category .rb {
 		float:none;
 		width:auto;
 	}
-	.price {
+	body.mobile .price {
 		width:auto;
 		padding:32px 5% 1px;
 		margin:0 auto;
 	}
-	.price h1 {
+	body.mobile .price h1 {
 		text-align:center;
 	}
-	.price h3 {
+	body.mobile .price h3 {
 		text-align:center;
 	}
-	.price h6 {
+	body.mobile .price h6 {
 		text-align:center;
 		margin-top:-19px;
 	}
-	.price ul {
+	body.mobile .price ul {
 		width:auto;
 	}
-	.price ul li {
+	body.mobile .price ul li {
 		margin:0 0 10px;
 	}
-	.clients {
+	body.mobile .clients {
 		width:auto;
 		padding:27px 5% 9px;
 		margin:0 auto;
 	}
-	.clients h1 {
+	body.mobile .clients h1 {
 		text-align:center;
 	}
-	.clients ul {
+	body.mobile .clients ul {
 		width:auto;
 		margin:30px 0 10px;
 	}
-	.clients ul li {
+	body.mobile .clients ul li {
 		float:none;
 		width:auto;
 		margin:0 0 10px;
 	}
-	.clients ul li a {
+	body.mobile .clients ul li a {
 		width:100%;
 	}
-	.clients ul li a div {
+	body.mobile .clients ul li a div {
 		width:100%;
 		text-align:center;
 		padding:13px 0;
 	}
-	.blogpage {
+	body.mobile .blogpage {
 		width:auto;
 		padding:27px 5% 27px;
 		margin:0 auto;
 	}
-	.blogpage h1 {
+	body.mobile .blogpage h1 {
 		text-align:center;
 	}
-	.blogpage .lb {
+	body.mobile .blogpage .lb {
 		float:none;
 		width:auto;
 	}
-	.blogpage .lb > div > div {
+	body.mobile .blogpage .lb > div > div {
 		float:none;
 		width:auto;
 		margin:0;
 	}
-	.blogpage .lb > div > div > div h2 {
+	body.mobile .blogpage .lb > div > div > div h2 {
 		text-align:center;
 	}
-	.blogpage .lb > div > div > div h6 {
+	body.mobile .blogpage .lb > div > div > div h6 {
 		text-align:center;
 	}
-	.blogpage .rb {
+	body.mobile .blogpage .rb {
 		float:none;
 		width:auto;
 		margin:10px 0 0;
 	}
-	.blogpage .rb h2 {
+	body.mobile .blogpage .rb h2 {
 		text-align:center;
 		margin:0 0 20px;
 	}
-	.blogpage .rb h2:before {
+	body.mobile .blogpage .rb h2:before {
 		position:relative;
 		display:inline-block;
 		vertical-align:top;
 		margin:-2px 16px -2px 0;
 	}
-	.blogpage .rb > div > div > div {
+	body.mobile .blogpage .rb > div > div > div {
 		width:216px;
 		margin:0 auto 10px;
 	}
-	.blogpage .rb > div p {
+	body.mobile .blogpage .rb > div p {
 		text-align:center;
 	}
-	.contacts {
+	body.mobile .contacts {
 		width:auto;
 		margin:0 auto;
 	}
-	.contacts .lb {
+	body.mobile .contacts .lb {
 		float:none;
 		width:auto;
 		padding:18px 0 20px;
 	}
-	.contacts .lb > div {
+	body.mobile .contacts .lb > div {
 		padding:54px 5% 0;
 		background:url('../img/contacts_lb.png') no-repeat center top;
 	}
-	.contacts .lb > div ul {
+	body.mobile .contacts .lb > div ul {
 		text-align:center;
 	}
-	.contacts .lb > div p {
+	body.mobile .contacts .lb > div p {
 		text-align:center;
 	}
-	.contacts .rb {
+	body.mobile .contacts .rb {
 		float:none;
 		width:auto;
 	}
-	.contacts .rb > div {
+	body.mobile .contacts .rb > div {
 		text-align:center;
 		padding:38px 5% 10px;
 		background:url('../img/contacts_rb.png') no-repeat center top;
 	}
-	.contacts .rb p {
+	body.mobile .contacts .rb p {
 		margin:0 0 10px;
 	}
-	.contacts .rb h2 {
+	body.mobile .contacts .rb h2 {
 		text-align:center;
 	}
-	.contacts .rb p input, .contacts .rb p textarea {
+	body.mobile .contacts .rb p input, body.mobile .contacts .rb p textarea {
 		width:100%;
 		-moz-box-shadow:border-box;
 		-webkit-box-shadow:border-box;
 		box-sizing:border-box;
 	}
-	.contacts .rb button {
+	body.mobile .contacts .rb button {
 		display:inline-block;
 		margin:7px 0 5px;
 	}
-	.contacts .rb > div > div {
+	body.mobile .contacts .rb > div > div {
 		width:auto;
 		margin:0;
 	}
-	.documents {
+	body.mobile .documents {
 		width:auto;
 		min-height:0;
 		padding:27px 5% 18px;
 		margin:0 auto;
 	}
-	.documents h1 {
+	body.mobile .documents h1 {
 		text-align:center;
 		margin:0 0 30px;
 	}
-	.documents ul li {
+	body.mobile .documents ul li {
 		display:block;
 		width:100%;
 		margin:0 0 12px;
 	}
-	.video {
+	body.mobile .video {
 		width:auto;
 		margin:0 auto;
 	}
-	.video .lb {
+	body.mobile .video .lb {
 		float:none;
 		width:auto;
 		min-height:0;
 		padding:10px 0 20px;
 	}
-	.video .lb h3 {
+	body.mobile .video .lb h3 {
 		text-align:center;
 		padding:11px 5% 43px;
 		background:url('../img/video_lb_h3.png') no-repeat center bottom;
 	}
-	.video .lb h5 {
+	body.mobile .video .lb h5 {
 		text-align:center;
 		margin:0 5% 27px;
 	}
-	.video .lb p {
+	body.mobile .video .lb p {
 		text-align:center;
 		margin:0 5% 16px;
 	}
-	.video .rb {
+	body.mobile .video .rb {
 		float:none;
 		width:auto;
 	}
-	.video .rb ul li {
+	body.mobile .video .rb ul li {
 		display:block;
 		width:auto;
 		text-align:center;
 		margin:0 5% 24px;
 	}
-	.video .rb ul li h5 {
+	body.mobile .video .rb ul li h5 {
 		margin:0 0 10px;
 	}
-	.news {
+	body.mobile .news {
 		width:auto;
 		padding:28px 5% 8px;
 		margin:0 auto;
 	}
-	.news ul {
+	body.mobile .news ul {
 		margin:0;
 	}
-	.news h1 {
+	body.mobile .news h1 {
 		text-align:center;
 	}
-	.news ul li {
+	body.mobile .news ul li {
 		text-align:center;
 		padding:2px 0 20px;
 	}
-	.news ul li img {
+	body.mobile .news ul li img {
 		float:none;
 		margin:0 0 20px;
 	}
-	.news ul li h6 {
+	body.mobile .news ul li h6 {
 		position:static;
 		width:100px;
 		margin:0 auto 20px;
 	}
-	.news ul li p {
+	body.mobile .news ul li p {
 		text-align:left;
 	}
-	.news ul li h5 {
+	body.mobile .news ul li h5 {
 		position:static;
 		text-align:center;
 		margin:30px 0 16px;
 	}
-}
